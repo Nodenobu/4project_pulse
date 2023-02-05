@@ -1,0 +1,55 @@
+
+.review__item {
+    padding: 0 25px 0 10px;
+    display: flex;
+    margin-top: 60px;
+}
+.review__img {
+    margin-right: 60px;
+}
+
+.review__name {
+    color: #0D0D0D;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+}
+.review__achievement {
+    color: #646464;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+.reiew__msg {
+    margin-top: 10px;
+    color: #0D0D0D;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media ( max-width: 767px  ) {
+    .review {
+        &__item {
+            padding: 0 15px 0 10px;
+            margin-top: 40px;
+        }
+        &__img {
+            margin-right: 20px;
+        }
+    }
+
+}
+
+@media ( max-width: 575px  ) {
+    .review {
+        &__item {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__name {
+            margin-top: 15px;
+        }
+    }
+    
+}
