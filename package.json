@@ -1,5 +1,5 @@
 {
-  "name": "secondproject_uber",
+  "name": "testGulp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,19 +9,25 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "animate.css": "^4.1.1",
     "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.55.0"
   },
   "dependencies": {
-    "animate.css": "^4.1.1",
-    "git": "^0.1.5",
-    "gulp-htmlmin": "^5.0.1",
-    "gulp-rename": "^2.0.0"
-  }
+    "git": "^0.1.5"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ]
 }
